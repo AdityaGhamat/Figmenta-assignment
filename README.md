@@ -95,11 +95,11 @@ npm start
 
 ## ⏱️ Time Spent
 
-- **Total Time:** ~35 minutes
+- **Total Time:** ~30 minutes
 - **Breakdown:**
     - Setup & Config: 5 mins
     - Backend API: 10 mins
-    - Frontend UI & Integration: 15 mins
+    - Frontend UI & Integration: 10 mins
     - Documentation & Deployment: 5 mins
 
 ---
