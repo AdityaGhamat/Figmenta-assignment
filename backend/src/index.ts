@@ -5,12 +5,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 const app = express();
-app.use(
-  cors({
-    origin:
-      "https://figmenta-assignment-8363-h96m29d6t-adityaghamats-projects.vercel.app",
-  })
-);
+app.use(cors({ origin: "*" }));
 const PORT = Number(process.env.PORT) || 4000;
 
 app.use(bodyParser.json());
