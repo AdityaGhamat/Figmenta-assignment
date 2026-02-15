@@ -2,11 +2,17 @@ import express, { Request, Response } from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
 import dotenv from "dotenv";
+
 dotenv.config();
 const app = express();
+app.use(
+  cors({
+    origin:
+      "https://figmenta-assignment-8363-h96m29d6t-adityaghamats-projects.vercel.app",
+  })
+);
 const PORT = Number(process.env.PORT) || 4000;
 
-app.use(cors());
 app.use(bodyParser.json());
 
 interface Bookmark {
